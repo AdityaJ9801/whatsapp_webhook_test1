@@ -11,7 +11,7 @@ app.use(express.json());
 // Configuration
 const port = process.env.PORT ;
 const verifyToken = process.env.VERIFY_TOKEN ;
-const accessToken = process.env.ACCESS_TOKEN ';
+const accessToken = process.env.ACCESS_TOKEN ;
 const whatsappApiUrl = 'https://graph.facebook.com/v22.0/926283987231472/messages';
 
 // Function to send WhatsApp message
